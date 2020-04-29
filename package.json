@@ -1,0 +1,38 @@
+{
+  "name": "link-api-test",
+  "version": "1.0.0",
+  "description": "A simple api integration between Bling and PiperDrive",
+  "main": "src/app.js",
+  "author": "Jeovano Coutinho",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon --inspect --exec babel-node src/app.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^5.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^8.0.8",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.10",
+    "querystring": "^0.2.0",
+    "uuid": "^7.0.3",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.3"
+  }
+}
