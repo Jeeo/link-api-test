@@ -1,0 +1,7 @@
+obs: substituir o localhost caso necessário :)
+
+Realizar a integração
+curl --location --request POST 'localhost:3000/api/v1/deals/push'
+
+Resumo
+curl --location --request GET 'localhost:3000/api/v1/deals/'
